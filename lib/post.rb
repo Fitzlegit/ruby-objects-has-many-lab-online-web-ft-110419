@@ -18,7 +18,6 @@ class Post
   end
   
   def author_name
-    #binding.pry
     if author
       author.name
     else
