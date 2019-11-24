@@ -19,8 +19,10 @@ class Post
   
   def author_name
     #binding.pry
-    if !author.name
+    if author
       author.name
+    else
+      nil
     end
   end
     
