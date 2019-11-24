@@ -19,7 +19,7 @@ class Post
   
   def author_name
     #binding.pry
-    if !author.name.empty?
+    if !author.empty?
       author.name
     end
   end
